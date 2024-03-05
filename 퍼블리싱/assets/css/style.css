@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+
+/* 2024.03.리뉴얼 퍼블리싱 */
+
+/* **************************************** *
+ * LAYOUT
+ * **************************************** */
+body.renewal-body{width: 100%; margin: 0 auto; overflow-x: hidden; -webkit-text-size-adjust: 100%; box-sizing: border-box;}
+
+/* **************************************** *
+ * TYPOGRAPHY
+ * **************************************** */
+@font-face {
+    font-family: 'Noto Sans CJK KR';
+    font-style: normal;
+    font-weight: 100;
+    src: url("styles/fonts/NotoSansKR-Light.woff2") format('woff2'),
+    url("styles/fonts/NotoSansKR-Light.woff") format('woff'),
+    url("styles/fonts/NotoSansKR-Light.otf") format('truetype')
+    }
+
+    @font-face {
+        font-family: 'Noto Sans CJK KR';
+        font-style: normal;
+        font-weight: normal;
+        src: url("styles/fonts/NotoSansKR-Regular.woff2") format('woff2'),
+        url("styles/fonts/NotoSansKR-Regular.woff") format('woff'),
+        url("styles/fonts/NotoSansKR-Regular.otf") format('truetype')
+    }
+
+    @font-face {
+        font-family: 'Noto Sans CJK KR';
+        font-style: normal;
+        font-weight: 500;
+        src: url("styles/fonts/NotoSansKR-Medium.woff2") format('woff2'),
+        url("styles/fonts/NotoSansKR-Medium.woff") format('woff'),
+        url("styles/fonts/NotoSansKR-Medium.otf") format('truetype')
+    }
+
+    @font-face {
+        font-family: 'Noto Sans CJK KR';
+        font-style: normal;
+        font-weight: bold;
+        src: url("styles/fonts/NotoSansKR-Bold.woff2") format('woff2'),
+        url("styles/fonts/NotoSansKR-Bold.woff") format('woff'),
+        url("styles/fonts/NotoSansKR-Bold.otf") format('truetype')
+    }
+    body.renewal-body{font-family:'Noto Sans CJK KR'}
+
+/* **************************************** *
+ * COMMON
+ * **************************************** */
+/***** SKIP BUTTON *****/
+.skip-re a{position: absolute; background-color:#43538a;}
+
+
+/***** MAIN HEADER *****/
+
+
+/* 접근성테스트로 임시 (2024. 02. 28) */
+:focus {
+    border: 2px dashed #333;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
